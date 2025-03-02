@@ -7,10 +7,15 @@
 
 header
 {
-    height: 600px;
+    height: 800px;
    background-color:#FFF8F3;
+   background-image: url(./developer.png) , url(./header_bg.png) ;
+   background-repeat: no-repeat;
+   background-position: top left , right bottom;
    padding-top: 51px;
 }
+
+/*  Navbar  */
 
 nav{
     display: flex;
@@ -48,7 +53,7 @@ ul
     padding: 12px 35px 12px 35px;
     background-color: #FD6E0A;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     border-radius: 5px;
     border: none;
@@ -59,8 +64,56 @@ ul
     padding: 12px 35px 12px 35px;
     background-color:white;
     color:#FD6E0A ;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #FD6E0A; 
+}
+
+/*  */
+
+.description 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px ;
+}
+
+.des_text p
+{
+    font-size: 45px;    
+    font-weight: 600;
+    color: var(--Dark-02, #474747);
+    margin-top: 50px;
+    gap: 5px;
+}
+
+.des_text h1
+{
+    font-size: 45px;    
+    font-weight: 800;
+    color: var(--Dark-01, #181818);
+    margin-top: 20px;
+
+}
+
+.des_text h2
+{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Dark-03, #757575);
+    margin-top: 20px;
+}
+
+.des_text button
+{
+   margin-top: 20px; 
+}
+
+
+.description img
+{
+    margin: 73px 20px 0px 0px;
 }
