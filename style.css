@@ -100,7 +100,7 @@ ul
 
 .des_text h2
 {
-    width: 500px;
+    max-width: 500px;
     font-size: 18px;
     font-weight: 400;
     color: var(--Dark-03, #757575);
@@ -116,4 +116,92 @@ ul
 .description img
 {
     margin: 73px 20px 0px 0px;
+}
+
+/* END OF HEADER */
+
+
+/* START OF ABOUT - MAIN PART - 1 */
+
+.main_part
+{
+    max-width: 900px; height: 400px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 270px 50px 300px;
+    border-radius: 10px;
+    background: #FFF8F3;     
+
+}
+
+.about
+{
+    max-width: 750px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.about h1{
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+.about p 
+{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.short_des
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+
+.name h3, .email h3, .from h3, .dob h3 
+{
+    padding-right: 10px;
+    color: var(--Dark-03, #757575);font-size: 20px;
+
+}
+
+.name p, .email p, .from p, .dob p 
+{
+    padding-right: 10px;
+    color: var(--Dark-02, #474747);font-size: 20px;
+
+}
+
+/* END OF MAIN PART - 1 */
+
+/* START OF MAIN PART - 2 */
+
+.myskill p 
+{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.myskill h3 
+{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
 }
