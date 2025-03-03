@@ -189,6 +189,11 @@ ul
 
 /* START OF MAIN PART - 2 */
 
+.myskill
+{
+    background: var(--White-Color, #FFF);
+}
+
 .myskill p 
 {
     color: var(--Dark-01, #181818);
@@ -197,11 +202,56 @@ ul
     font-weight: 700;
 }
 
-.myskill h3 
+#text
 {
+    height: 200px;
+    margin: 20px 300px 0px 300px;
+}
+
+.myskill h3{
     color: var(--Dark-03, #757575);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 10px;
+    line-height: 30px;
 }
+
+.skill_in_language
+{
+    display: flex;
+   justify-content: center;
+    margin-top: 10px 20px 20px 10px;
+    gap: 20px;
+
+}
+
+.skill-1 , .skill-2 , .skill-3 , .skill-4
+{
+    max-width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+
+.skill-1 h3, .skill-2 h3, .skill-3 h3, .skill-4 h3
+{
+    color: var(--Dark-01, #181818);
+    text-align:start;
+    font-size: 15px;
+    font-weight: 700;
+    margin:29px 0px 0px 5px;
+}
+
+.skill-1 p, .skill-2 p, .skill-3 p, .skill-4 p
+{
+    color: var(--Dark-03, #757575);
+    text-align:start;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px 0px 10px 0px;
+}
+
+/* END OF MAIN PART - 2 */
